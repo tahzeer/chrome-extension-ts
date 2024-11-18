@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Sample Web Extension",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "./backgroud/index.js",
+        "type": "module"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["./content/index.js"]
+    }]
+}
