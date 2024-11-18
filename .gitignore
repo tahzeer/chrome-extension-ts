@@ -4,6 +4,7 @@ dist/
 
 # Temp files
 *.pem
+.parcel-cache/
 
 # OS-specific files
 .DS_Store
