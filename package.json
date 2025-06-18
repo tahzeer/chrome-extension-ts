@@ -17,5 +17,8 @@
     "@types/chrome": "^0.0.283",
     "parcel": "^2.13.0",
     "typescript": "^5.6.3"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }
